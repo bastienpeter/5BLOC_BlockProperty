@@ -1,24 +1,24 @@
 @echo off
-echo Starting BlockProperty Environment...
-echo 1. Starting Blockchain Node...
-start "BlockProperty: Blockchain (DO NOT CLOSE)" cmd /k "npx hardhat node"
+echo Demarrage de l'environnement BlockProperty...
+echo 1. Demarrage du noeud Blockchain...
+start "BlockProperty: Blockchain (NE PAS FERMER)" cmd /k "npx hardhat node"
 
-echo Waiting for blockchain to initialize...
+echo Attente de l'initialisation de la blockchain...
 timeout /t 5 /nobreak >nul
 
-echo 2. Deploying Contracts...
+echo 2. Deploiement des contrats...
 call npx hardhat run scripts/deploy.ts --network localhost
 
-echo 3. Starting Frontend...
+echo 3. Demarrage du Frontend...
 cd frontend
-start "BlockProperty: DApp (DO NOT CLOSE)" cmd /k "npm run dev"
+start "BlockProperty: DApp (NE PAS FERMER)" cmd /k "npm run dev"
 
 echo.
 echo ========================================
-echo   Servers are running!
-echo   - Blockchain: Window "BlockProperty: Blockchain"
-echo   - Frontend:   Window "BlockProperty: DApp"
+echo   Les serveurs sont en ligne !
+echo   - Blockchain: Fenetre "BlockProperty: Blockchain"
+echo   - Frontend:   Fenetre "BlockProperty: DApp"
 echo ========================================
 echo.
-echo Use stop_servers.bat to close everything.
+echo Utilisez stop_servers.bat pour tout fermer.
 pause

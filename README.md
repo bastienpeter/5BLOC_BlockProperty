@@ -76,12 +76,18 @@ Pour éviter la centralisation des biens par un seul acteur :
 - Navigateur avec l'extension **MetaMask** installée.
 
 ### Procédure Automatique (Recommandée)
-Un script d'automatisation est fourni pour lancer l'environnement complet :
+Un script d'automatisation est fourni pour lancer l'environnement complet.
 
+**Sous Windows :**
 1. Ouvrez un terminal à la racine du projet.
-2. Exécutez le script : `start_servers.bat` (ou double-cliquez dessus).
-   - *Ce script lance le nœud Hardhat, déploie les contrats et démarre le serveur Frontend.*
-3. Pour arrêter proprement : `stop_servers.bat`.
+2. Exécutez : `start_servers.bat` (ou double-cliquez dessus).
+
+**Sous Linux / Mac :**
+1. Rendez les scripts exécutables : `chmod +x *.sh`
+2. Exécutez : `./start_servers.sh`
+
+Ce script lance le nœud Hardhat, déploie les contrats et démarre le serveur Frontend.
+Pour arrêter proprement : `stop_servers.bat` (Windows) ou `./stop_servers.sh` (Linux).
 
 ### Procédure Manuelle
 Si vous souhaitez lancer les services séparément :
@@ -131,7 +137,8 @@ Le projet inclut une suite de tests unitaires complète et un script d'automatis
 
 ### Exécution
 Pour lancer la campagne de test complète :
-- **Sous Windows** : Exécutez le script **`test_integral.bat`** (double-clic ou ligne de commande).
+- **Sous Windows** : Exécutez le script **`test_integral.bat`**.
+- **Sous Linux / Mac** : Exécutez le script **`./test_integral.sh`**.
 - **Commande manuelle** :
   ```bash
   npx hardhat test
