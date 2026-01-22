@@ -1,0 +1,18 @@
+{
+  "name": "MAISON",
+  "type": "MAISON",
+  "description": "Un appartement confortable en centre-ville.",
+  "value": 10,
+  "image": "ipfs://QmPlaceholderImage",
+  "hash": "ipfs://QmDocMAISON",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "MAISON"
+    },
+    {
+      "trait_type": "Initial Price",
+      "value": 10
+    }
+  ]
+}

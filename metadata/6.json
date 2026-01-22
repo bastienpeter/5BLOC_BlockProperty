@@ -1,0 +1,18 @@
+{
+  "name": "CHATEAU",
+  "type": "CHATEAU",
+  "description": "Monument historique classé.",
+  "value": 50,
+  "image": "ipfs://QmPlaceholderImage",
+  "hash": "ipfs://QmDocCHATEAU",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "CHATEAU"
+    },
+    {
+      "trait_type": "Initial Price",
+      "value": 50
+    }
+  ]
+}

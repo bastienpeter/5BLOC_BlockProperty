@@ -1,0 +1,18 @@
+{
+  "name": "SUPERMARCHE",
+  "type": "SUPERMARCHE",
+  "description": "Supermarché d'une grande chaîne nationale.",
+  "value": 30,
+  "image": "ipfs://QmPlaceholderImage",
+  "hash": "ipfs://QmDocSUPERMARCHE",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "SUPERMARCHE"
+    },
+    {
+      "trait_type": "Initial Price",
+      "value": 30
+    }
+  ]
+}

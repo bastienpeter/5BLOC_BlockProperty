@@ -1,0 +1,18 @@
+{
+  "name": "USINE",
+  "type": "USINE",
+  "description": "Usine de production industrielle.",
+  "value": 40,
+  "image": "ipfs://QmPlaceholderImage",
+  "hash": "ipfs://QmDocUSINE",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "USINE"
+    },
+    {
+      "trait_type": "Initial Price",
+      "value": 40
+    }
+  ]
+}

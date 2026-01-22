@@ -1,0 +1,57 @@
+
+# Node dependencies
+node_modules
+*/node_modules
+
+# Hardhat
+cache
+artifacts
+typechain-types
+coverage
+coverage.json
+test_stats.txt
+
+# Environment variables
+.env
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend
+frontend/dist
+frontend/build
+frontend/.vite
+frontend/node_modules
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Misc
+.DS_Store
+.env
+.env.local
+*.log
+yarn-error.log
+package-lock.json
+yarn.lock
+

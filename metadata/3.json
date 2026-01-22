@@ -1,0 +1,18 @@
+{
+  "name": "VILLA",
+  "type": "VILLA",
+  "description": "Villa avec piscine et grand jardin.",
+  "value": 20,
+  "image": "ipfs://QmPlaceholderImage",
+  "hash": "ipfs://QmDocVILLA",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "VILLA"
+    },
+    {
+      "trait_type": "Initial Price",
+      "value": 20
+    }
+  ]
+}
