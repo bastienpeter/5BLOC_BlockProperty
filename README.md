@@ -75,8 +75,19 @@ Pour éviter la centralisation des biens par un seul acteur :
 - Git
 - Navigateur avec l'extension **MetaMask** installée.
 
-### Procédure Automatique (Recommandée)
-Un script d'automatisation est fourni pour lancer l'environnement complet.
+### Dépendances et Installation
+Avant de lancer le projet, assurez-vous que les dépendances sont installées.
+
+**Automatique :**
+- **Windows** : Lancez `install_dependencies.bat`.
+- **Linux / Mac** : Lancez `./install_dependencies.sh` (n'oubliez pas `chmod +x *.sh`).
+
+**Manuel (si besoin) :**
+1. **Racine :** `npm install`
+2. **Frontend :** `cd frontend` puis `npm install`
+
+### Démarrage Rapide
+Une fois installé, lancez l'environnement complet :
 
 **Sous Windows :**
 1. Ouvrez un terminal à la racine du projet.
